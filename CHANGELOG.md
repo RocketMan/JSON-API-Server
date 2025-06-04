@@ -1,5 +1,11 @@
 ## Change Log
 
+### 3.1.1+rocketman.1
+* depend on rocketman/json-api-common
+
+### 3.1.1
+* fixed relationships
+
 ### 3.1.0
 * changed "set included" to "merge included"
 

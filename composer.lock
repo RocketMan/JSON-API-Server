@@ -4,49 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b83a4a3656f1b10943e37aabbc2c6a1",
+    "content-hash": "21cc9d4ca3e94fc5579e72a7d7f5d9ea",
     "packages": [
-        {
-            "name": "enm/json-api-common",
-            "version": "3.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/eosnewmedia/JSON-API-Common.git",
-                "reference": "d868eb4d76bf75518f1bb72a70e5abf78fcae476"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eosnewmedia/JSON-API-Common/zipball/d868eb4d76bf75518f1bb72a70e5abf78fcae476",
-                "reference": "d868eb4d76bf75518f1bb72a70e5abf78fcae476",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2",
-                "psr/http-message": "^1.0"
-            },
-            "require-dev": {
-                "guzzlehttp/psr7": "^1.4",
-                "phpunit/phpunit": "^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Enm\\JsonApi\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Philipp Marien",
-                    "email": "marien@eosnewmedia.de"
-                }
-            ],
-            "description": "Basic php implementation (shared structures for client and server) of the json api specification (jsonapi.org)",
-            "time": "2018-10-29T13:01:14+00:00"
-        },
         {
             "name": "psr/http-message",
             "version": "1.0.1",
@@ -96,6 +55,54 @@
                 "response"
             ],
             "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "rocketman/json-api-common",
+            "version": "v3.2.2+rocketman.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RocketMan/JSON-API-Common.git",
+                "reference": "aa2c02dc378709d8dd94ab4d39e12e9862bfd118"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RocketMan/JSON-API-Common/zipball/aa2c02dc378709d8dd94ab4d39e12e9862bfd118",
+                "reference": "aa2c02dc378709d8dd94ab4d39e12e9862bfd118",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "guzzlehttp/psr7": "^1.4",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Enm\\JsonApi\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Marien",
+                    "email": "marien@eosnewmedia.de"
+                },
+                {
+                    "name": "Jim Mason",
+                    "email": "jmason@ibinx.com"
+                }
+            ],
+            "description": "Basic php implementation (shared structures for client and server) of the json api specification (jsonapi.org)",
+            "support": {
+                "source": "https://github.com/RocketMan/JSON-API-Common/tree/v3.2.2+rocketman.1"
+            },
+            "time": "2025-06-04T17:55:39+00:00"
         }
     ],
     "packages-dev": [
@@ -1510,11 +1517,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.2"
     },
-    "platform-dev": []
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
